@@ -15,9 +15,9 @@ label.grid()
 label.configure(font=('Courrier', 40))
 
 button = tk.Button(window, text="Changer", command=word)
-button.grid(row=1, column=0, pady=5)
+button.grid(row=1)
 
 quit = tk.Button(window, text='Quitter', command=window.quit)
-quit.grid(row=1, column=1, pady=5)
+quit.grid(row=2)
 
 window.mainloop()
