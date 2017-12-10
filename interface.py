@@ -8,6 +8,7 @@ def word():
 
 window = tk.Tk()
 window.title("Générateur de mots")
+window.configure(bd=20)
 
 label = tk.Label(window, text="", width=30)
 label.grid()
